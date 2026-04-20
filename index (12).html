@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kazi Mahir Adeeb — Ethical AI Architect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-orb" id="cursorOrb"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Cosmic Canvas Background -->
+  <canvas id="cosmosCanvas"></canvas>
+
+  <!-- Particle Field -->
+  <div class="particle-field" id="particleField"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <div class="nav-logo">
+      <span class="logo-glyph">⬡</span>
+      <span class="logo-text">KMA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#achievements" class="nav-link">Honours</a></li>
+      <li><a href="#research" class="nav-link">Research</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-energy-ring ring-1"></div>
+    <div class="hero-energy-ring ring-2"></div>
+    <div class="hero-energy-ring ring-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-prefix" data-text="KAZI MAHIR ADEEB">
+        <span class="prefix-line"></span>
+        <p class="prefix-label">Emerging from Dhaka · Bangladesh · Earth</p>
+        <span class="prefix-line"></span>
+      </div>
+
+      <h1 class="hero-name">
+        <span class="name-line" data-chars="KAZI">KAZI</span>
+        <span class="name-line" data-chars="MAHIR">MAHIR</span>
+        <span class="name-line accent-gold" data-chars="ADEEB">ADEEB</span>
+      </h1>
+
+      <div class="hero-titles">
+        <span class="title-item active">Ethical AI Architect</span>
+        <span class="title-sep">·</span>
+        <span class="title-item">Independent Researcher</span>
+        <span class="title-sep">·</span>
+        <span class="title-item">Global Policy Scholar</span>
+        <span class="title-sep">·</span>
+        <span class="title-item">Builder</span>
+      </div>
+
+      <p class="hero-quote">
+        <em>"The floor moves — but I walk anyway."</em>
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-pill">
+          <span class="stat-num">53K+</span>
+          <span class="stat-label">Entries Beaten</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-num">5</span>
+          <span class="stat-label">Publications</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Websites Built</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-num">66K+</span>
+          <span class="stat-label">Applicants Outlasted</span>
+        </div>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#about" class="btn-primary">Enter My World</a>
+        <a href="cv/Kazi_Mahir_Adeeb_CV.pdf" target="_blank" class="btn-ghost">Download CV</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+  <section class="about section-reveal" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">The <em>Origin</em></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">
+            I am a Bangladeshi high school researcher whose work sits at the collision of <strong>artificial intelligence</strong>, theoretical systems, and human resilience. Not a straight path — an unusual one.
+          </p>
+          <p>
+            From Khulna to global stages, I've built frameworks for ethical AI, authored papers on SSRN and Google Scholar, won the Queen's Commonwealth Gold beating 53,000+ writers across 56 nations, and shipped over <strong>10 websites</strong> to the web — all before finishing secondary school.
+          </p>
+          <p>
+            My journey includes Lumiere Research Scholar mentorship with Harvard/Stanford/Oxford PhD mentors, a TED Summer School speaking scholarship, acceptance into Stanford Code in Place from 66,000+ applicants, and co-authoring a thermodynamics paper with a Research Assistant Professor from the University of Oklahoma.
+          </p>
+          <p class="about-personal">
+            I've faced profound personal challenges — schizophrenia, bipolar disorder, a life-threatening hospitalisation, the loss of my father in 2024. Each broke the floor beneath me. I kept walking. My psychiatrist <strong>Mst. Shammi Akhter</strong> believed in me when I struggled to believe in myself. My work on constraint-based systems is, in part, a love letter to the idea that structure can free you.
+          </p>
+
+          <div class="about-tags">
+            <span class="tag">AI Ethics</span>
+            <span class="tag">Theoretical Systems</span>
+            <span class="tag">Physics Research</span>
+            <span class="tag">Global Policy</span>
+            <span class="tag">Bio-AI</span>
+            <span class="tag">Web Development</span>
+            <span class="tag">Citizen Science</span>
+          </div>
+        </div>
+
+        <div class="about-side">
+          <div class="about-card identity-card">
+            <div class="card-glow"></div>
+            <div class="identity-name">Kazi Mahir Adeeb</div>
+            <div class="identity-role">Ethical AI Architect</div>
+            <div class="identity-divider"></div>
+            <div class="identity-detail"><span>📍</span> Dhaka, Bangladesh</div>
+            <div class="identity-detail"><span>🎓</span> Govt. Sundarban Adarsha College · 2026</div>
+            <div class="identity-detail"><span>📚</span> GPA 4.00/4.00 · SSC 91.04%</div>
+            <div class="identity-detail"><span>♟</span> Chess · ~1800 Rapid</div>
+            <div class="identity-detail"><span>🔬</span> Zooniverse · 190.7 hrs</div>
+            <div class="identity-divider"></div>
+            <div class="identity-quote">"Control, adapt, evolve — in machines and in life."</div>
+          </div>
+
+          <div class="about-inspirations">
+            <p class="inspo-label">Shaped by</p>
+            <div class="inspo-grid">
+              <span class="inspo-item">Breaking Bad</span>
+              <span class="inspo-item">Mr. Robot</span>
+              <span class="inspo-item">Oppenheimer</span>
+              <span class="inspo-item">Orwell</span>
+              <span class="inspo-item">Paulo Coelho</span>
+              <span class="inspo-item">Humayun Ahmed</span>
+              <span class="inspo-item">Itachi Uchiha</span>
+              <span class="inspo-item">Thorfinn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ HONOURS ═══════════════════════ -->
+  <section class="achievements section-reveal" id="achievements">
+    <div class="achievements-bg-text">HONOURS</div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Global <em>Recognition</em></h2>
+      </div>
+
+      <div class="awards-grid">
+
+        <div class="award-card tier-gold">
+          <div class="award-glow"></div>
+          <div class="award-badge">👑 GOLD</div>
+          <div class="award-body">
+            <h3>Queen's Commonwealth Essay Competition</h3>
+            <p class="award-org">Royal Commonwealth Society · 2025</p>
+            <p class="award-detail">Selected from <strong>53,434+ entries</strong> across 56 nations · One of the most prestigious youth writing honours globally · Signed by Sir Ben Okri OBE · Inspired by George Orwell</p>
+          </div>
+        </div>
+
+        <div class="award-card tier-platinum">
+          <div class="award-glow"></div>
+          <div class="award-badge">◆ HIGHEST DISTINCTION</div>
+          <div class="award-body">
+            <h3>Scholar's Laureate Award</h3>
+            <p class="award-org">Immerse Education · 2026</p>
+            <p class="award-detail">Reserved for the most outstanding submissions worldwide · <strong>75% tuition scholarship</strong> for Oxford/Cambridge programmes</p>
+          </div>
+        </div>
+
+        <div class="award-card tier-silver">
+          <div class="award-glow"></div>
+          <div class="award-badge">★ DISTINCTION</div>
+          <div class="award-body">
+            <h3>Lumiere Scholars Essay Award</h3>
+            <p class="award-org">Lumiere Education · 2025</p>
+            <p class="award-detail">Selected from <strong>2,000+ essays</strong> across 111 countries · <strong>$500 merit scholarship</strong> + PhD mentorship (Harvard / Stanford / Oxford)</p>
+          </div>
+        </div>
+
+        <div class="award-card tier-silver">
+          <div class="award-glow"></div>
+          <div class="award-badge">🎤 SCHOLARSHIP</div>
+          <div class="award-body">
+            <h3>TED Summer School — Global Speaking Scholarship</h3>
+            <p class="award-org">Immerse Education × TED-Ed · 2026</p>
+            <p class="award-detail">Recognised for thoughtfulness, clarity, and potential among record global submissions</p>
+          </div>
+        </div>
+
+        <div class="award-card tier-bronze">
+          <div class="award-glow"></div>
+          <div class="award-badge">🏛 RUNNER-UP</div>
+          <div class="award-body">
+            <h3>Immerse Education Essay Competition</h3>
+            <p class="award-org">2026</p>
+            <p class="award-detail">Top finalist in a separate competitive cycle · <strong>50% tuition scholarship</strong> awarded</p>
+          </div>
+        </div>
+
+        <div class="award-card tier-bronze">
+          <div class="award-glow"></div>
+          <div class="award-badge">🌏 DELEGATE</div>
+          <div class="award-body">
+            <h3>ASEAN Global Youth Summit</h3>
+            <p class="award-org">Studec International · 2025</p>
+            <p class="award-detail">Selected from <strong>1,000+ global applicants</strong> · Singapore & Malaysia summit</p>
+          </div>
+        </div>
+
+        <div class="award-card tier-bronze">
+          <div class="award-glow"></div>
+          <div class="award-badge">💰 SCHOLARSHIP</div>
+          <div class="award-body">
+            <h3>John Locke Institute — $500 Scholarship</h3>
+            <p class="award-org">Radley College, Oxford</p>
+            <p class="award-detail">Awarded scholarship for summer programmes at Radley College</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ RESEARCH ═══════════════════════ -->
+  <section class="research section-reveal" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Research & <em>Publications</em></h2>
+      </div>
+
+      <div class="research-list">
+
+        <div class="research-item featured">
+          <div class="research-num">001</div>
+          <div class="research-content">
+            <div class="research-top">
+              <h3>The Self-Evolving Machine (SEM)</h3>
+              <div class="research-tags"><span>AI Theory</span><span>CBA</span><span>Google Scholar</span></div>
+            </div>
+            <p>A conceptual framework proposing systems capable of continuous self-directed improvement through Adaptive Efficiency. Integrates complexity theory, evolutionary computation, and modular robotics. Creator of <strong>Constraint-Based Autonomy (CBA)</strong> — embedding ethical constraints directly into adaptive AI architecture.</p>
+            <div class="research-meta">Sole Author · SSRN / PhilArchive / ResearchGate / Google Scholar · Indexed</div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-num">002</div>
+          <div class="research-content">
+            <div class="research-top">
+              <h3>Revisiting the Wheatstone Bridge</h3>
+              <div class="research-tags"><span>Physics</span><span>SSRN</span></div>
+            </div>
+            <p>Critical analysis of theoretical validity vs. practical constraint in high-resistance metrology. Challenges commonly taught limitations by distinguishing between theoretical validity and practical constraints.</p>
+            <div class="research-meta">SSRN Publication</div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-num">003</div>
+          <div class="research-content">
+            <div class="research-top">
+              <h3>Re-examination of Gauss's Law Inside Charged Spheres</h3>
+              <div class="research-tags"><span>Physics</span><span>Pedagogy</span><span>SSRN</span></div>
+            </div>
+            <p>Exposes pedagogical oversimplification in how Gauss's Law is taught. Proposes a four-case comparative framework with canonical-source citations for more rigorous instruction.</p>
+            <div class="research-meta">SSRN Publication</div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-num">004</div>
+          <div class="research-content">
+            <div class="research-top">
+              <h3>Thermodynamics Research Paper (In Progress)</h3>
+              <div class="research-tags"><span>Thermodynamics</span><span>Co-authored</span><span>University of Oklahoma</span></div>
+            </div>
+            <p>Co-authoring with a Research Assistant Professor from the <strong>University of Oklahoma</strong>. Regular meetings held to finalise the work. An extraordinary collaboration between a high school researcher and a university faculty member.</p>
+            <div class="research-meta">Co-Author · Forthcoming</div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-num">005</div>
+          <div class="research-content">
+            <div class="research-top">
+              <h3>Public Articles — Monomousumi</h3>
+              <div class="research-tags"><span>Writing</span><span>Published</span></div>
+            </div>
+            <p>"Munch Selectively to Stand Out" and "Entertainment Without Borders" — two editorially selected articles published and reaching a public audience on Monomousumi.com.</p>
+            <div class="research-meta">2025 · Monomousumi.com</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ PROGRAMMES ═══════════════════════ -->
+  <section class="programmes section-reveal" id="programmes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Selective <em>Programmes</em></h2>
+      </div>
+
+      <div class="programmes-grid">
+
+        <div class="prog-card">
+          <div class="prog-icon">⚡</div>
+          <div class="prog-body">
+            <h3>Stanford Code in Place</h3>
+            <p class="prog-org">Stanford University · 2026</p>
+            <p>Selected from <strong>66,000+ global applications</strong> · Faculty-led Python programme · One of the most competitive CS learning programmes in the world</p>
+          </div>
+        </div>
+
+        <div class="prog-card">
+          <div class="prog-icon">🚀</div>
+          <div class="prog-body">
+            <h3>The Knowledge Society (TKS)</h3>
+            <p class="prog-org">Global Human Accelerator · 2025</p>
+            <p>Accepted from thousands of global applicants · <strong>$3,000 USD financial aid</strong> on merit · International network of young innovators</p>
+          </div>
+        </div>
+
+        <div class="prog-card">
+          <div class="prog-icon">🎓</div>
+          <div class="prog-body">
+            <h3>Oxford Summer Scholars Programme</h3>
+            <p class="prog-org">Interview-Based · 2026</p>
+            <p>Accepted through rigorous interview process · Advanced verbal reasoning and academic promise demonstrated</p>
+          </div>
+        </div>
+
+        <div class="prog-card">
+          <div class="prog-icon">🔬</div>
+          <div class="prog-body">
+            <h3>Lumiere Research Scholar</h3>
+            <p class="prog-org">Lumiere Education</p>
+            <p>Working as a Lumiere Research Scholar with PhD mentorship from Harvard, Stanford, and Oxford mentors</p>
+          </div>
+        </div>
+
+        <div class="prog-card">
+          <div class="prog-icon">💧</div>
+          <div class="prog-body">
+            <h3>Bangladesh Stockholm Junior Water Prize</h3>
+            <p class="prog-org">National Finalist · 2026</p>
+            <p>Developed <strong>Lumin-Sense v2.0</strong> — a $16.30 Bio-AI sentinel for real-time heavy metal toxicity detection using bioluminescent bacteria</p>
+          </div>
+        </div>
+
+        <div class="prog-card">
+          <div class="prog-icon">⚛</div>
+          <div class="prog-body">
+            <h3>CERN Beamline for Schools</h3>
+            <p class="prog-org">Team: 'Cosmic Polar Orchestra' · 2026</p>
+            <p>Designed experiment modelling X-ray polarisation via bremsstrahlung & Compton scattering using <strong>Geant4 (C++) simulations</strong></p>
+          </div>
+        </div>
+
+        <div class="prog-card">
+          <div class="prog-icon">🖥</div>
+          <div class="prog-body">
+            <h3>ICT Olympiad Bangladesh</h3>
+            <p class="prog-org">Semi-Finalist · 2025</p>
+            <p>National-level STEM competition · Winner certificates: <strong>Semi-Final, Quarter-Final, and Selection Rounds</strong> · Progressed through multiple national rounds</p>
+          </div>
+        </div>
+
+        <div class="prog-card">
+          <div class="prog-icon">🌍</div>
+          <div class="prog-body">
+            <h3>UN Governance Cohort</h3>
+            <p class="prog-org">UNITAR / UNECE / UN CC:Learn · 2025</p>
+            <p><strong>10+ Certifications</strong> · Paris Agreement, NAPs, Gender & Climate, Emissions Reporting, Inclusive Green Economy, Ship Energy Efficiency (IMO)</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
+  <section class="projects section-reveal" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h2 class="section-title">Built &amp; <em>Shipped</em></h2>
+      </div>
+      <p class="projects-intro">10+ websites designed, built and published through GitHub. Here are the notable ones.</p>
+
+      <div class="projects-grid">
+
+        <a href="https://adeeb13.github.io/black-hole--camera-view/" target="_blank" class="project-card featured-project">
+          <div class="project-glow"></div>
+          <div class="project-overlay">
+            <span>Visit Live ↗</span>
+          </div>
+          <div class="project-header">
+            <span class="project-tech">HTML · CSS · JS</span>
+            <span class="project-status live">LIVE</span>
+          </div>
+          <h3>Black Hole Explorer</h3>
+          <p>Interactive educational website with 3D navigation, anatomy explorer, AI chatbot, and gravity escape game. The cosmos in your browser.</p>
+          <div class="project-repo">adeeb13/black-hole--camera-view</div>
+        </a>
+
+        <a href="https://adeeb13.github.io/THE-MACHINE-GARDEN/" target="_blank" class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-overlay"><span>Visit ↗</span></div>
+          <div class="project-header">
+            <span class="project-tech">Web</span>
+            <span class="project-status live">LIVE</span>
+          </div>
+          <h3>The Machine Garden</h3>
+          <p>A digital garden exploring the intersection of machine intelligence and organic growth — a visual-philosophical web experience.</p>
+          <div class="project-repo">adeeb13/THE-MACHINE-GARDEN</div>
+        </a>
+
+        <a href="https://adeeb13.github.io/SEM-CBA/" target="_blank" class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-overlay"><span>Visit ↗</span></div>
+          <div class="project-header">
+            <span class="project-tech">Research Web</span>
+            <span class="project-status live">LIVE</span>
+          </div>
+          <h3>SEM-CBA Framework Site</h3>
+          <p>Web presence for the Self-Evolving Machine and Constraint-Based Autonomy framework — the research hub for the CBA theory.</p>
+          <div class="project-repo">adeeb13/SEM-CBA</div>
+        </a>
+
+        <a href="https://adeeb13.github.io/event-horizon-lab/" target="_blank" class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-overlay"><span>Visit ↗</span></div>
+          <div class="project-header">
+            <span class="project-tech">Interactive</span>
+            <span class="project-status live">LIVE</span>
+          </div>
+          <h3>Event Horizon Lab</h3>
+          <p>Physics simulation and interactive laboratory exploring the event horizon of black holes with visual calculations.</p>
+          <div class="project-repo">adeeb13/event-horizon-lab</div>
+        </a>
+
+        <a href="https://adeeb13.github.io/Adaptive-Efficiency--SEM/" target="_blank" class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-overlay"><span>Visit ↗</span></div>
+          <div class="project-header">
+            <span class="project-tech">Theory Site</span>
+            <span class="project-status live">LIVE</span>
+          </div>
+          <h3>Adaptive Efficiency — SEM</h3>
+          <p>Dedicated site for the Adaptive Efficiency concept within the Self-Evolving Machine framework.</p>
+          <div class="project-repo">adeeb13/Adaptive-Efficiency--SEM</div>
+        </a>
+
+        <div class="project-card more-card">
+          <div class="more-count">10+</div>
+          <h3>More on GitHub</h3>
+          <p>Ruby, prototype-kazi-mahir-adeeb, Fareeeeeeha-web, KaziMahirAdeeb, gjcd-yjcmxgcd-j, and more.</p>
+          <a href="https://github.com/Adeeb13" target="_blank" class="btn-ghost-sm">View All ↗</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SERVICE ═══════════════════════ -->
+  <section class="service section-reveal" id="service">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">06</span>
+        <h2 class="section-title">Service &amp; <em>Community</em></h2>
+      </div>
+      <div class="service-grid">
+        <div class="service-item">
+          <div class="service-icon">🔭</div>
+          <h3>Zooniverse Citizen Science</h3>
+          <p><strong>190.7 verified hours</strong> across 2 projects · Signed by Principal Investigator Dr. Laura Trouille · 2026</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">📖</div>
+          <h3>English Teaching Volunteer</h3>
+          <p>Teaching English to underprivileged children · Rightsight Limited Language Club · Khulna · 2023–2025</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">📊</div>
+          <h3>Bangladesh Economics Olympiad</h3>
+          <p>Campus Ambassador, Khulna Metropolitan · 2026 · Representing the city in national academic economics outreach</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">✒</div>
+          <h3>Foyle Young Poets Award</h3>
+          <p>The Poetry Society · 2025 · Certificate of Participation · Exploring the intersection of language and thought</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+  <section class="contact section-reveal" id="contact">
+    <div class="contact-bg-aura"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">07</span>
+        <h2 class="section-title">Let's <em>Connect</em></h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-lead">I'm always open to research collaborations, academic opportunities, and conversations that challenge the status quo.</p>
+          <div class="contact-links">
+            <a href="mailto:thundermahir08@gmail.com" class="contact-link">
+              <span class="cl-icon">✉</span>
+              <span>thundermahir08@gmail.com</span>
+            </a>
+            <a href="tel:+8801635478077" class="contact-link">
+              <span class="cl-icon">📱</span>
+              <span>+880 1635 478077</span>
+            </a>
+            <a href="https://www.linkedin.com/in/kazi-mahir-adeeb-62b954340/" target="_blank" class="contact-link">
+              <span class="cl-icon">🔗</span>
+              <span>linkedin.com/in/kazi-mahir-adeeb</span>
+            </a>
+            <a href="https://github.com/Adeeb13" target="_blank" class="contact-link">
+              <span class="cl-icon">⌨</span>
+              <span>github.com/Adeeb13</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <div class="contact-card">
+            <div class="cc-glow"></div>
+            <blockquote class="closing-quote">
+              "Intelligence without ethics is just sophisticated destruction. I build the constraint first — then the freedom."
+            </blockquote>
+            <cite>— Kazi Mahir Adeeb, on Constraint-Based Autonomy</cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-line"></div>
+    <div class="footer-content">
+      <span class="footer-name">Kazi Mahir Adeeb</span>
+      <span class="footer-copy">© 2025 · Dhaka, Bangladesh · Built with intent.</span>
+      <span class="footer-links">
+        <a href="https://github.com/Adeeb13" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kazi-mahir-adeeb-62b954340/" target="_blank">LinkedIn</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
